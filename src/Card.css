@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cards{
+  width: 210px;
+  height: 200px;
+  margin: 10px 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.card
+{
+  background-color: grey;
+  padding: 5px;
+}
+.cardInfo{
+  margin-top: 5px;
+  text-align: center;
+}
+span{
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  margin: 5px, 0px;
+}
+img{
+  width: 200px;
+  height: 200px;
+}

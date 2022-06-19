@@ -1,24 +1,19 @@
 import React from "react";
 
 let greeting = "";
-let styleGreet = {
-
-};
+let styleGreet = {};
 
 let curTime = new Date();
 curTime = curTime.getHours();
 
 if (curTime >= 4 && curTime < 11) {
   greeting = "Good Morning";
-  styleGreet.color='green';
-} 
-else if (curTime >= 11 && curTime <18) {
+  styleGreet.color = "green";
+} else if (curTime >= 11 && curTime < 20) {
   greeting = "Good Afternoon";
-  styleGreet.color='Orange';
-} 
-else {
+  styleGreet.color = "Orange";
+} else {
   greeting = "Good Night";
-  styleGreet.colo='blue';
 }
 
 function Greet() {
