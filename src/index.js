@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import './index.css';
+import "./index.css";
 
 const name = "Nurul";
 const date = new Date().toLocaleDateString();
@@ -10,12 +10,22 @@ const img2 = "https://picsum.photos/201/250";
 const img3 = "https://picsum.photos/210/250";
 const link = "https://picsum.photos/";
 
+const heading ={
+  color:"#000fff",
+  textAlign:"center",
+  textTransform:"capitalize"
+};
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
+    <div>
+      <h1 style={heading}>Inline css style</h1>
+
+    </div>
     <div className="cssDiv">
       <h2>JSX Attributes</h2>
-      <h3 contentEditable="true">What is your name ? {name} </h3>
+      <h3>What is your name ? {name} </h3>
       <img src={img1} alt="Random Image" />
       <img src={img2} alt="Random Image" />
       <a href={link} target="_nurul">
