@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import './index.css';
 
 const name = "Nurul";
 const date = new Date().toLocaleDateString();
@@ -12,7 +13,7 @@ const link = "https://picsum.photos/";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
-    <div>
+    <div className="cssDiv">
       <h2>JSX Attributes</h2>
       <h3 contentEditable="true">What is your name ? {name} </h3>
       <img src={img1} alt="Random Image" />
