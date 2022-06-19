@@ -4,15 +4,28 @@ import ReactDOM from "react-dom/client";
 const name = "Nurul";
 const date = new Date().toLocaleDateString();
 const time = new Date().toLocaleTimeString();
-
+const img1 = "https://picsum.photos/200/250";
+const img2 = "https://picsum.photos/201/250";
+const img3 = "https://picsum.photos/210/250";
+const link = "https://picsum.photos/";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
     <div>
+      <h2>JSX Attributes</h2>
+      <h3 contentEditable="true">What is your name ? {name} </h3>
+      <img src={img1} alt="Random Image" />
+      <img src={img2} alt="Random Image" />
+      <a href={link} target="_nurul">
+        <img src={img3} alt="Random Image" />
+      </a>
+    </div>
+
+    <div>
       <h2>Display Current Date and Time in JSX</h2>
-       <h3>{  `Today : ${date}` }</h3>
-       <h3>{  `Time : ${time}` }</h3>
+      <h3>{`Today : ${date}`}</h3>
+      <h3>{`Time : ${time}`}</h3>
     </div>
 
     <div>
