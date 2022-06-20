@@ -1,10 +1,10 @@
 import React from "react";
-import DigitalClock from './DigitalClock';
+import EventHandle from './EventHandle';
 
 function App() {
   return (
     <>
-      <DigitalClock />
+      <EventHandle />
     </>
   );
 }
