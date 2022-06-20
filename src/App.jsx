@@ -1,10 +1,10 @@
 import React from "react";
-import Hooks from "./Hooks";
+import HooksTime from "./HooksTime";
 
 function App() {
   return (
     <>
-      <Hooks/>
+      <HooksTime />
     </>
   );
 }
