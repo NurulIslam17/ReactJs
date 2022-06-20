@@ -31,7 +31,7 @@ function HooksTime() {
   }
 
   return (
-    <>
+    <> 
       <div style={main}>
         <h1 style={time}>{curT}</h1>
         <button style={btn} onClick={updateTfn}>

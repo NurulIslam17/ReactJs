@@ -1,10 +1,10 @@
 import React from "react";
-import HooksTime from "./HooksTime";
+import DigitalClock from './DigitalClock';
 
 function App() {
   return (
     <>
-      <HooksTime />
+      <DigitalClock />
     </>
   );
 }

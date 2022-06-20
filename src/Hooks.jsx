@@ -6,13 +6,12 @@ const main = {
 };
 
 function Hooks() {
-  const st = useState();
-  let [count, setUpdate] = useState(0);
+  let init = 0;
+  let [count, setUpdate] = useState(init);
 
   function IncNum() {
     setUpdate(count++);
   }
-
   return (
     <>
       <div style={main}>

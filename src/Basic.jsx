@@ -2,8 +2,10 @@ import React from "react";
 import "./index.css";
 
 const name = "Nurul";
+
 const date = new Date().toLocaleDateString();
 const time = new Date().toLocaleTimeString();
+
 const img1 = "https://picsum.photos/200/250";
 const img2 = "https://picsum.photos/201/250";
 const img3 = "https://picsum.photos/210/250";
@@ -24,10 +26,10 @@ function Basic() {
     <div className="cssDiv">
       <h2>JSX Attributes</h2>
       <h3>What is your name ? {name} </h3>
-      <img src={img1} alt="Random Image" />
-      <img src={img2} alt="Random Image" />
+      <img src={img1} alt="RandomImage" />
+      <img src={img2} alt="RandomImage" />
       <a href={link} target="_nurul">
-        <img src={img3} alt="Random Image" />
+        <img src={img3} alt="RandomImage" />
       </a>
     </div>
 
