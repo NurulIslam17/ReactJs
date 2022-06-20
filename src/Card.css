@@ -4,16 +4,15 @@
   box-sizing: border-box;
 }
 .cards{
-  width: 210px;
-  height: 200px;
-  margin: 10px 5px;
-  margin-bottom: 10px;
-  text-align: center;
+  width: 100%;
+  height: auto;
 }
 .card
 {
   background-color: grey;
   padding: 5px;
+  float:left;
+  margin:10px;
 }
 .cardInfo{
   margin-top: 5px;
