@@ -1,10 +1,10 @@
 import React from "react";
-import IfElse from './IfElse';
+import Hooks from "./Hooks";
 
 function App() {
   return (
     <>
-      <IfElse/>
+      <Hooks/>
     </>
   );
 }
