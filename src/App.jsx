@@ -1,5 +1,5 @@
 import React from "react";
-import FORM from "./components/FORM/BasicForm";
+import FORM from "./components/FORM/BasicForm1";
 
 function App() {
 
