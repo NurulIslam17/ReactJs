@@ -1,11 +1,10 @@
 import React from "react";
-import EventHandle from './EventHandle';
+import FORM from "./components/FORM/BasicForm";
 
 function App() {
+
   return (
-    <>
-      <EventHandle />
-    </>
-  );
+    <FORM/>
+  )
 }
 export default App;
