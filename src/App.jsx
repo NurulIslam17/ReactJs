@@ -1,10 +1,7 @@
 import React from "react";
-import FORM from "./components/FORM/BasicForm2";
+import Todo from "./components/ToDo/ToDo";
 
 function App() {
-
-  return (
-    <FORM/>
-  )
+  return <Todo />;
 }
 export default App;
