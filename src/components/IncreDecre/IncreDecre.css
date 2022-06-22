@@ -17,9 +17,9 @@ font-family: 'Yanone Kaffeesatz', sans-serif; */
   align-items: center;
 }
 .Display {
-  background-color: aquamarine;
+  background-color:white;
   width: 20%;
-  height: 400px;
+  height: 300px;
   border-radius: 20px;
 
   display: flex;
@@ -55,16 +55,12 @@ button {
   font-family: "Josefin Slab", serif;
   font-weight: bold;
 }
-.inc {
-  background-color: green;
-}
-.inc:hover {
-  background-color: rgb(67, 231, 130);
-  color: #000;
-}
-.dec {
-  background-color: red;
-}
-.dec:hover {
-  background-color: rgb(28, 226, 144);
-}
+
+/* @media only screen and (max-width:915px){
+  .Display{
+    width: 100%;
+    height: 700px;
+    margin: 3px;
+    background-color: #000;
+  }
+} */
