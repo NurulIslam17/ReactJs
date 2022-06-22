@@ -1,9 +1,9 @@
 import React from "react";
-import Todo from "./components/ToDo/ToDo";
+import Indec from "./components/IncreDecre/IncreDecre";
 
 function App() {
   return (
-    <Todo/>
+    <Indec/>
   );
 }
 export default App;
