@@ -1,20 +1,30 @@
 import React, { useState } from "react";
+import List from "./TodoList";
 import "./Todo.css";
 
 export default function ToDo() {
-  const [inpData, inputUpd] = useState(" ");
+  const [inpData, inputUpd] = useState("");
   const [item, setItem] = useState([]);
 
-	const inputEvent = (e) => {
+  const inputEvent = (e) => {
     inputUpd(e.target.value);
   };
-	
 
   const addItem = () => {
     setItem((oldItem) => {
-				return [...oldItem,inpData]
-		})
-		inputUpd("");
+      return [...oldItem, inpData];
+    });
+    inputUpd("");
+  };
+
+  const deleteItm = (id) => {
+    alert("deleted");
+
+    setItem((oldItem) => {
+      return oldItem.filter((arrEle, index) => {
+        return index !== id;
+      });
+    });
   };
 
   return (
@@ -30,13 +40,20 @@ export default function ToDo() {
               type="text"
               onChange={inputEvent}
               placeholder="Add List Item"
-							value={inpData}
+              value={inpData}
             />
             <button onClick={addItem}> + </button>
           </div>
           <ol>
-            {item.map((itmVal) => {
-              return <li>{itmVal}</li>;
+            {item.map((itmVal, index) => {
+              return (
+                <List
+                  key={index}
+                  id={index}
+                  list={itmVal}
+                  onSelect={deleteItm}
+                />
+              );
             })}
           </ol>
         </div>

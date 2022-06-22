@@ -24,7 +24,7 @@ font-family: 'Yanone Kaffeesatz', sans-serif; */
   align-items: center;
 }
 .display {
-  width: 30%;
+  width: 20%;
   height: 70vh;
   background-color: rgb(253, 251, 251);
   border-radius: 20px;
@@ -87,4 +87,27 @@ ol li {
   align-items: center;
   color: blueviolet;
   text-transform: capitalize;
+}
+
+.rmv{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center
+}
+
+.rmv .fa-xmark{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  border-radius: 50%;
+  margin: 9px 7px 0px 15px;
+}
+.rmv .fa-xmark:hover{
+  background-color: rgb(212, 14, 14);
+  color: #FFF;
+
 }
