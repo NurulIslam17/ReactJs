@@ -1,9 +1,9 @@
 import React from "react";
-import Accordion from './components/Accordion/Accordion '
+import WebPage from './components/Bootstap/WebPage ';
 
 function App() {
   return (
-    <Accordion/>
+    <WebPage/>
   );
 }
 export default App;

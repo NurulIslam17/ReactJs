@@ -19,4 +19,5 @@ export const question =[
     question:"What are the components in React?",
     answer:"Components are the building blocks of any React application, and a single app usually consists of multiple components. A component is essentially a piece of the user interface. It splits the user interface into independent, reusable parts that can be processed separately. There are two types of react componenets , Functional  and Class Components"
   }
+  
 ]
