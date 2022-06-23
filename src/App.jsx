@@ -1,9 +1,9 @@
 import React from "react";
-import Bootstrap from './components/Bootstap/Bootstrap';
+import Accordion from './components/Accordion/Accordion '
 
 function App() {
   return (
-    <Bootstrap/>
+    <Accordion/>
   );
 }
 export default App;
