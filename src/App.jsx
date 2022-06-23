@@ -1,9 +1,9 @@
 import React from "react";
-import Indec from "./components/IncreDecre/IncreDecre";
+import Bootstrap from './components/Bootstap/Bootstrap';
 
 function App() {
   return (
-    <Indec/>
+    <Bootstrap/>
   );
 }
 export default App;
