@@ -1,9 +1,9 @@
 import React from "react";
-import SelectBox from './components/Hook/SelectBox';
+import RouteComp from './components/Router/RouteComp';
 
 function App() {
   return (
-    <SelectBox/>
+    <RouteComp/>
   );
 }
 export default App;
