@@ -1,9 +1,9 @@
 import React from "react";
-import WebPage from './components/Bootstap/WebPage ';
+import UseEffect from './components/Hook/UseEfect';
 
 function App() {
   return (
-    <WebPage/>
+    <UseEffect/>
   );
 }
 export default App;
