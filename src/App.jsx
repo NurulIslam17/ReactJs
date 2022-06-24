@@ -1,9 +1,9 @@
 import React from "react";
-import UseEffect from './components/Hook/UseEfect';
+import ChangeTitle from './components/Hook/ChangeTitle';
 
 function App() {
   return (
-    <UseEffect/>
+    <ChangeTitle/>
   );
 }
 export default App;
