@@ -1,9 +1,9 @@
 import React from "react";
-import ChangeTitle from './components/Hook/ChangeTitle';
+import SelectBox from './components/Hook/SelectBox';
 
 function App() {
   return (
-    <ChangeTitle/>
+    <SelectBox/>
   );
 }
 export default App;
