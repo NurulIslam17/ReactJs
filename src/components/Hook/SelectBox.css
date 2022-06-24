@@ -19,6 +19,9 @@
   justify-content: center;
   align-items: center;
 }
+.divSelect{
+  text-align: left;
+}
 .select> option{
   height: 20px;
 }
