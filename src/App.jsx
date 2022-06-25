@@ -1,13 +1,11 @@
 import React from "react";
 import { BrowserRouter} from "react-router-dom";
-import MenuBar from "./components/Router//MenuBar";
-import RouteCom from "./components/Router/RouteComp";
+import Search from './components/Search/Search'
 
 function App() {
   return (
     <BrowserRouter>
-      <MenuBar />
-      <RouteCom />
+      <Search/>
     </BrowserRouter>
   );
 }
