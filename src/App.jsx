@@ -1,9 +1,14 @@
 import React from "react";
-import RouteComp from './components/Router/RouteComp';
+import { BrowserRouter} from "react-router-dom";
+import MenuBar from "./components/Router//MenuBar";
+import RouteCom from "./components/Router/RouteComp";
 
 function App() {
   return (
-    <RouteComp/>
+    <BrowserRouter>
+      <MenuBar />
+      <RouteCom />
+    </BrowserRouter>
   );
 }
 export default App;

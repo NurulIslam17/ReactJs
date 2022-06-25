@@ -4,7 +4,7 @@ function MenuBar() {
   return (
     <div>
       <Link to="/"> Home</Link>
-      <Link to="/about"> Aout Us</Link>
+      <Link to="/about"> About Us</Link>
       <Link to="/contact"> Contact US</Link>
     </div>
   )
